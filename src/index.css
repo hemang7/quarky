@@ -8,3 +8,11 @@
     height: calc(100vh - height of Header - height of Footer);
   overflow-y: auto;
   }
+
+
+  .banner-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as desired */
+  }
+  

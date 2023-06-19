@@ -5,13 +5,31 @@ import Typewriter from "./Typewriter";
 const Banner = () => {
   return (
     <section className="relative">
-      <video className="w-full h-auto object-cover" autoPlay loop muted>
-        <source src={hero} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+      <div
+        className="relative h-screen md:h-[calc(100vh-13rem)] xl:h-screen"
+        style={{
+          marginTop: "-4rem",
+        }}
+      >
+        <video className="w-full h-full object-cover" autoPlay loop muted>
+          <source src={hero} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div
+          className="absolute inset-0 bg-black opacity-50"
+          style={{
+            marginTop: "-4rem",
+          }}
+        ></div>
+      </div>
       <div className="absolute inset-0 flex items-center justify-center text-white text-center">
         <div>
-          <h1 className="text-4xl text-white font-bold mb-6 ">
+          <h1
+            className="text-5xl font-bold mb-6"
+            style={{
+              marginTop: "10rem",
+            }}
+          >
             <Typewriter />
           </h1>
           <p className="text-xl mb-10">

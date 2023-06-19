@@ -38,7 +38,7 @@ const items = [
 const CircularRotatingListDemo = () => {
   return (
     <>
-      <div className="pt-24">
+      <div className="pt-24 text-center">
         <h1 className="text-4xl font-bold underline justify-center flex mt-20 py-12">
           Total Analytical & Research Solutions
         </h1>

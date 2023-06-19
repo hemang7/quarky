@@ -154,7 +154,7 @@ export const links = [
         ],
       },
       {
-        Head: "In House R & D Services:",
+        Head: "In House R & D Services",
         sublink: [
           {
             name: "Analytical Development",
@@ -281,7 +281,7 @@ export const links = [
         ],
       },
       {
-        Head: "Our other services:",
+        Head: "Our other services",
         sublink: [
           {
             name: "Pharma Consultancy",
