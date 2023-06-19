@@ -21,21 +21,12 @@ const stats = [
 const Stats = () => {
   return (
     <div className="w-screen  h-80 mt-10 mb-10 " style={{ marginTop: 200 }}>
-      <div className="relative bg-gray-900 w-[90%] mx-auto rounded-sm p-8 ">
-        <h4 className="mb-7 w-[80%] mx-auto text-center text-xl sm:text-4xl font-bold text-white">
+      <div className="relative w-[90%] mx-auto rounded-sm p-8 ">
+        <h4 className="mb-7 w-[80%] mx-auto text-center text-xl sm:text-4xl font-bold text-black">
           Trusted for quality from clients all over the world.
         </h4>
 
-        <div className="mb-2 text-center mx-auto text-sm sm:text-lg text-gray-200">
-          We are an innovation-driven R&D and Testing Lab with Headquarters in
-          Jodhpur, Rajasthan, India. We are Rajasthan State FDA approved, NABL
-          (ISO/IEC 17025) and ISO 9001:2015 Certified with compliance to
-          requirements given in schedule L1 and GLP guidelines. Established on
-          19th Oct. 2010 and now having more than a decade of experience, we
-          have successfully achieved good heights and trust among all customers
-          by providing various services to Pharmaceutical, Nutraceutical,
-          Cosmetic and Herbal Industries
-        </div>
+
 
         <div className="mb-5"></div>
 

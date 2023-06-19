@@ -13,7 +13,7 @@ const Footer = () => {
   };
 
   return (
-    <div className="px-4 pt-8 md:pt-28 text-xs sm:text-sm bg-gray-900">
+    <div className="px-4 pt-8 md:pt-28 text-xs sm:text-sm bg-blue-800">
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row gap-8 sm:gap-20">
           <div className="md:w-1/2">
@@ -34,12 +34,12 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="mt-8 sm:mt-16 border-t border-black py-7 text-gray-300 text-xs">
+        <div className="mt-8 sm:mt-16 border-t border-gray-600 py-7 text-gray-300 text-xs">
           &copy; {currentYear} Quark Consultancy Services. All rights reserved
         </div>
         <div className="text-right mr-5">
           <button
-            className=" bg-gray-700 hover:bg-gray-500 rounded-full p-2 focus:outline-none mb-5"
+            className=" bg-blue-600 hover:bg-blue-500 rounded-full p-2 focus:outline-none mb-5"
             onClick={scrollToTop}
           >
             <FontAwesomeIcon icon={faChevronUp} size="lg" />

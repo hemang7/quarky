@@ -8,6 +8,7 @@ import Contact from "./Pages/Contact";
 import Loading from "./components/Loading";
 import ScrollToTop from "./components/ScrollToTop";
 import Service from "./Pages/Service";
+import { ChakraProvider } from "@chakra-ui/react";
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(false);
@@ -29,18 +30,20 @@ const App = () => {
   return (
     <div className="w-full overflow-x-hidden">
       <ScrollToTop />
-      <Navbar />
-      {isLoading ? (
-        <Loading />
-      ) : (
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/service/:serviceId" element={<Service />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      )}
-      <Footer />
+      <ChakraProvider>
+        <Navbar />
+        {isLoading ? (
+          <Loading />
+        ) : (
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/service/:serviceId" element={<Service />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        )}
+        <Footer />
+      </ChakraProvider>
     </div>
   );
 };
