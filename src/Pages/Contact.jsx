@@ -129,7 +129,7 @@ const Contact = () => {
             <h2 className="text-2xl font-bold mb-4 text-white">
               Quark Consultancy Services
             </h2>
-            <p className="text-white">example@example.com</p>
+            <p className="text-white">quarkcs0702@gmail.com</p>
             <p className="text-white">123456789</p>
           </div>
         </div>
