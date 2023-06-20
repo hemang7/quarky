@@ -27,7 +27,7 @@ const Footer = () => {
             <div className="text-center md:text-left">
               <h2 className="text-2xl font-bold mb-4t ">Reach out</h2>
               <p>Phone: (123) 456-7890</p>
-              <p>Email: example@example.com</p>
+              <p>Email: quarkcs0702@gmail.com</p>
               <p>Opening Hours: Mon-Fri 9am-5pm</p>
               <p>FAQs or Frequently Asked Questions</p>
             </div>
