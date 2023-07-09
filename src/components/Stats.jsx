@@ -26,9 +26,7 @@ const Stats = () => {
           Trusted for quality from clients all over the world.
         </h4>
 
-        <h4 className="mb-7 w-[80%] mx-auto text-center text-xl sm:text-4xl font-bold text-black">
-          Trusted for quality from clients all over the world.
-        </h4>
+
 
 
 
