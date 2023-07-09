@@ -22,19 +22,16 @@ const Stats = () => {
   return (
     <div className="w-screen  h-80 mt-10 mb-10 " style={{ marginTop: 200 }}>
       <div className="relative w-[90%] mx-auto rounded-sm p-8 ">
-<<<<<<< HEAD
         <h4 className="mb-20 w-[100%] mx-auto text-center text-3xl sm:text-4xl font-bold text-black">
           Trusted for quality from clients all over the world.
         </h4>
 
-=======
         <h4 className="mb-7 w-[80%] mx-auto text-center text-xl sm:text-4xl font-bold text-black">
           Trusted for quality from clients all over the world.
         </h4>
 
 
 
->>>>>>> b2ebe123cf82663a2eede326466d58369bc867d1
         <div className="mb-5"></div>
 
         <div className="absolute  left-1/2 transform -translate-x-1/2 w-full sm:w-[105%] flex rounded-md shadow-md bg-white">

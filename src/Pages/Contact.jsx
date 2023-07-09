@@ -129,11 +129,8 @@ const Contact = () => {
             <h2 className="text-2xl font-bold mb-4 text-white">
               Quark Consultancy Services
             </h2>
-<<<<<<< HEAD
             <p className="text-white">example@example.com</p>
-=======
             <p className="text-white">quarkcs0702@gmail.com</p>
->>>>>>> b2ebe123cf82663a2eede326466d58369bc867d1
             <p className="text-white">123456789</p>
           </div>
         </div>
