@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.service-container {
+    height: calc(100vh - height of Header - height of Footer);
+  overflow-y: auto;
+  }
+
+
+  .banner-overlay::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fade-in-animation 1s ease-in forwards;
+  }
+  
+  .fade-in-delayed {
+    animation-delay: 0.5s; /* Adjust the delay (in seconds) as desired */
+  }
+  
+  @keyframes fade-in-animation {
+    from {
+      opacity: 0;
+      
+    }
+    to {
+      opacity: 1;
+      
+    }
+  }
+  
